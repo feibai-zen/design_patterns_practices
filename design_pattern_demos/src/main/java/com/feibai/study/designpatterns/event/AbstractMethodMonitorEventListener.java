@@ -1,9 +1,6 @@
 package com.feibai.study.designpatterns.event;
 
-import lombok.ToString;
-
 // 2、事件监听接口的实现：如何处理
-@ToString
 public class AbstractMethodMonitorEventListener implements MethodMonitorEventListener {
 
   @Override
@@ -17,5 +14,10 @@ public class AbstractMethodMonitorEventListener implements MethodMonitorEventLis
     // 计算方法耗时
     long duration = System.currentTimeMillis() - event.timestamp;
     System.out.println("耗时：" + duration);
+  }
+
+  @Override
+  public String toString() {
+    return "AbstractMethodMonitorEventListener{}";
   }
 }

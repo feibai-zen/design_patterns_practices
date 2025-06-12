@@ -4,7 +4,6 @@ package com.feibai.study.designpatterns.iterator;
  * 自定义的迭代器接口
  * 
  * @author feibai
- *
  * 
  */
 public interface MyIterator {
