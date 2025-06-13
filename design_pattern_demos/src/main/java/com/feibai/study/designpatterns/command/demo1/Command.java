@@ -1,4 +1,4 @@
-package com.feibai.study.designpatterns.command;
+package com.feibai.study.designpatterns.command.demo1;
 
 public interface Command {
 	/**

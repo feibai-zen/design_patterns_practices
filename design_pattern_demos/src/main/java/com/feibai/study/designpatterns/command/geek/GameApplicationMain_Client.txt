@@ -1,0 +1,56 @@
+/**
+ * 这是一个使用 命令模式 的伪代码
+ *
+ */
+
+
+package com.feibai.study.designpatterns.command.geek;
+
+import org.junit.runner.Request;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class GameApplicationMain_Client {
+    private static final int MAX_HANDLED_REQ_COUNT_PRE_LOOP = 100;
+    private Queue<Command> queue = new LinkedList<>();
+
+    public void main_loop(){
+
+        while(true){
+            List<Request> requests = new ArrayList<>();
+
+            // 省略从epoll 或者 select 中获取数据，并封装称 Requests的逻辑
+            // 注意设置超时时间，如果很长时间没有接收到请求，就继续下面的逻辑处理
+
+            for(Request request : requests){
+                Event event = request.getEvent();
+                Command command = null;
+                if(event.equals(Event.GOT_DIAMOND)){
+                    command = new GotDiamondCommand(/**数据**/);
+                }else if (event.equals(Event.GOT_STAR)){
+                    command = new GotStarCommand(/**数据**/);
+                }else if(event.equals(Event.OBSTACLE)){
+                    command = new HitObstacleCommand(/**数据**/);
+                }else{
+                    command = new ArchiveCommand(/**数据**/);
+                }
+                queue.add(command);
+            }
+
+            int handledCount = 0;
+            while(handledCount < MAX_HANDLED_REQ_COUNT_PRE_LOOP){ //这里设置一次处理 100 个命令, 防止 epoll 线程等待太久
+                if(queue.isEmpty()){
+                    break;
+                }
+
+                Command command = queue.poll();
+                command.execute();
+                handledCount ++;
+            }
+        }
+
+    }
+}

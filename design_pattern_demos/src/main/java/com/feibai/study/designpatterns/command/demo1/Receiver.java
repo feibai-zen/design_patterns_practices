@@ -1,4 +1,4 @@
-package com.feibai.study.designpatterns.command;
+package com.feibai.study.designpatterns.command.demo1;
 
 /**
  * 真正的命令的执行者

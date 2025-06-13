@@ -1,6 +1,10 @@
-package com.feibai.study.designpatterns.command;
+package com.feibai.study.designpatterns.command.demo1;
 
-//调用者/发起者
+//
+
+/**
+ * 调用者 或 发起者
+ */
 public class Invoke {
 
 	private Command command; // 也可以通过容器List<Command>容纳很多命令对象，进行批处理。数据库底层的事务管理就是类似的结构！
