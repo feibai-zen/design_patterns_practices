@@ -23,7 +23,7 @@ public class EfficientTest {
         @Override
         public void run() {
           for (int i = 0; i < 100000000; i++) {
-            Object o = SingletonEnum.INSTANCE;
+            Object o = IdGeneratorSingleton_Enum.INSTANCE;
           }
           countDownLatch.countDown();
         }
