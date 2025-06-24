@@ -3,7 +3,7 @@ package com.feibai.study.designpatterns.interpreter.alertrule;
 import java.util.Map;
 
 public class AlertRuleInterpreter {
-    private final Expression expression;
+    private Expression expression;
 
     public AlertRuleInterpreter(String ruleExpression){
         this.expression = new OrExpression(ruleExpression);
