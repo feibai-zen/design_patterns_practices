@@ -25,11 +25,11 @@ public class FactorySimple {
   }
 
   // 方式2
-  public static Car createAudi() {
+  public static Car creatAudi() {
     return new Audi();
   }
 
-  public static Car createByd() {
+  public static Car creatByd() {
     return new Byd();
   }
 
