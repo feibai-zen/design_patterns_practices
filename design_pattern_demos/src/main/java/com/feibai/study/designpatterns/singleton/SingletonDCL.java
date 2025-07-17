@@ -52,6 +52,7 @@ public class SingletonDCL {
     Thread t = new Thread(() -> {
       System.out.println(SingletonDCL.getInstance());
     });
+
     t.start();
     System.out.println(SingletonDCL.getInstance());
   }
