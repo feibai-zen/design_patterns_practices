@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a62a5045-0853-47a8-be81-3a50f2d23480" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AirShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AirShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AirShipBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AirShipBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AirShipDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AirShipDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AudiAirShipBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AudiAirShipBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AudiAirshipDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/AudiAirshipDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/BuilderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/builder/BuilderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/factorypatern/FactoryAbstrastClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/factorypatern/AbstrastFactoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/尚硅谷_韩顺平_图解Java设计模式笔记/ppt.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/尚硅谷_韩顺平_图解Java设计模式笔记/ppt.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/尚硅谷_韩顺平_图解Java设计模式笔记/笔记.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/尚硅谷_韩顺平_图解Java设计模式笔记/笔记.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2tprgdnvTZlgvWms2eu3dU0U99K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlertRuleInterpreterMain_Client.executor": "Run",
+    "Application.BuilderClient.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CommandClient.executor": "Run",
+    "Application.CompositeClient.executor": "Run",
+    "Application.IdGeneratorSingleton_Enum.executor": "Run",
+    "Application.MethodMonitorEventPublisher.executor": "Run",
+    "Maven.design_pattern_demos [clean].executor": "Run",
+    "Maven.design_pattern_demos [compile].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/design_patterns_practices/design_pattern_demos/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\design_patterns_practices\design_pattern_demos\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sync_space\design_patterns_practices\design-pattern-demos\static_resources" />
+      <recent name="D:\code\design_patterns_practices\design_pattern_demos\src\main\resources\assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.feibai.study.designpatterns.command.geek" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BuilderClient">
+    <configuration name="AlertRuleInterpreterMain_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feibai.study.designpatterns.interpreter.alertrule.AlertRuleInterpreterMain_Client" />
+      <module name="study-demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feibai.study.designpatterns.interpreter.alertrule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feibai.study.designpatterns.builder.BuilderClient" />
+      <module name="design-pattern-demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feibai.study.designpatterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feibai.study.designpatterns.templatemethod.Client" />
+      <module name="design-pattern-demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feibai.study.designpatterns.templatemethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feibai.study.designpatterns.command.demo1.CommandClient" />
+      <module name="study-demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feibai.study.designpatterns.command.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdGeneratorSingleton_Enum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feibai.study.designpatterns.singleton.IdGeneratorSingleton_Enum" />
+      <module name="study-demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feibai.study.designpatterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BuilderClient" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.IdGeneratorSingleton_Enum" />
+        <item itemvalue="Application.AlertRuleInterpreterMain_Client" />
+        <item itemvalue="Application.CommandClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a62a5045-0853-47a8-be81-3a50f2d23480" name="Changes" comment="" />
+      <created>1741059979719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741059979719</updated>
+      <workItem from="1758166945257" duration="66000" />
+      <workItem from="1758167067669" duration="3728000" />
+      <workItem from="1758206622186" duration="381000" />
+      <workItem from="1758796436548" duration="727000" />
+      <workItem from="1758799174656" duration="2095000" />
+      <workItem from="1758851933543" duration="4721000" />
+      <workItem from="1759042997649" duration="3890000" />
+      <workItem from="1759305279723" duration="3928000" />
+      <workItem from="1759397675132" duration="2309000" />
+      <workItem from="1759466760000" duration="4797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/interpreter/alertrule/LessExpression.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/interpreter/alertrule/LessExpression.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/feibai/study/designpatterns/interpreter/alertrule/EqualExpression.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_pattern_demos$Client.ic" NAME="Client Coverage Results" MODIFIED="1741061577470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.feibai.study.designpatterns.strategy.*</FILTER>
+    </SUITE>
+  </component>
+</project>
