@@ -16,21 +16,11 @@ package com.feibai.study.designpatterns.builder;
  * @author feibai
  */
 public class BuilderClient {
-    private final AirShipDirector director;
-
-    public BuilderClient(AirShipDirector director) {
-        this.director = director;
-    }
-
-    public AirShip takeProduct() {
-        return director.directAirShip();
-    }
 
     public static void main(String[] args) {
-        AirShipBuilder builder = new AudiAirShipBuilder();
-        AirShipDirector director = new AudiAirshipDirector(builder);
 
-        AirShip ship = new BuilderClient(director).takeProduct();
+        AirShipDirector director = new AudiAirshipDirector(new AudiAirShipBuilder());
+        AirShip ship = director.directAirShip();
         System.out.println(ship.getEngine().getName());
 
         ship.launch();
